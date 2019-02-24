@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
             false
         })
 
-        email_sign_in_button.setOnClickListener { attemptLogin() }
+        login_activity_login_btb.setOnClickListener { attemptLogin() }
     }
 
     private fun attemptLogin() {
